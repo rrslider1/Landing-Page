@@ -1,0 +1,146 @@
+* {
+    font-family: "Wotfard", Futura, -apple-system, sans-serif;
+    text-decoration: none;
+    border-radius: 5%;
+    color: #D1D5DB;
+  }
+  
+.nav-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-basis: auto;
+    gap: 20px;
+    list-style: none;
+    background: #1f2937;
+    font-size: 20px;
+    margin: 10px;
+    border-bottom: "1px dotted hsl(0deg 0% 0% / 0.2)";
+    padding: 12px;
+  }
+  
+.logo {
+    margin-right: auto;
+    border-bottom: #e5e7eb;
+  }
+  
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    height: auto;
+    color: #e5e7eb;
+    justify-content: space-around;
+    object-fit: cover;
+    height: 500px;
+    gap: 10px
+  }
+  
+body {
+    background-color: #1f2937;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+.hero .content {
+    width: 300px;
+    flex-basis: auto;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+.hero img {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10%;
+  }
+  
+  .image-header {
+    margin: 10px;
+    padding: 20px;
+  }
+  
+button {
+    background-color: blue;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover {
+    background-color: rgb(249,250,251);
+}
+
+button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+button:focus-visible {
+  box-shadow: none;
+}
+  
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 75px;
+    align-items: center;
+    padding: 20px;
+  }
+  
+.image-header-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+  }
+  
+.image-header-images {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 20px;
+  }
+  
+.image-header-images img {
+    flex: 1;
+    object-fit: cover
+  }
+  
+.image-header-images p {
+    margin-top: auto;
+  }
+  
+.footerbox {
+    background-color: black;
+    padding: 20px;
+  }
+
+ .section-2 p, .section-2 h1 {
+    color: #111827;
+  }
+
+.section-2 {
+    background-color:#e5e7eb;
+    border-radius: 0%;
+    padding-bottom: 25px;
+  }
+
+  footer a {
+    color: #111827;
+  }
